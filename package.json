@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "description": "A Tailwind CSS preset that automates the conversion of pixel values to rem units. Enhance your responsive design workflow with customizable rem dividers and easy integration into your Tailwind CSS configuration.",
   "main": "src/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "release": "changeset publish"
   },
