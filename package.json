@@ -1,7 +1,7 @@
 {
   "name": "tailwindcss-preset-px-to-rem",
   "version": "1.0.0",
-  "description": "A Tailwind CSS preset that seamlessly converts pixel values to rem units, making it easier to implement responsive designs. This utility automates the conversion process, ensuring consistency and simplifying the transition from pixels to rems in your Tailwind CSS projects.",
+  "description": "A Tailwind CSS preset that automates the conversion of pixel values to rem units. Enhance your responsive design workflow with customizable rem dividers and easy integration into your Tailwind CSS configuration.",
   "main": "src/index.js",
   "publishConfig": {
     "access": "public"
@@ -11,11 +11,21 @@
   },
   "keywords": [
     "tailwindcss",
-    "preset",
-    "clamp"
+    "tailwind",
+    "rem",
+    "pixel-to-rem",
+    "px-to-rem",
+    "rem-converter",
+    "tailwind-preset",
+    "remify",
+    "rem-units"
   ],
   "author": "Or Jerby",
   "license": "MIT",
+  "repository": "github:orjerby/tailwindcss-preset-px-to-rem",
+  "files": [
+    "src/index.js"
+  ],
   "devDependencies": {
     "@changesets/cli": "^2.27.5"
   }
