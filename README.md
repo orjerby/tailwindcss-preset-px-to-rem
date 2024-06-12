@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./.github/tailwindcss-mark.svg" alt="Tailwind CSS" width="108" height="66">
+  <img src="https://raw.githubusercontent.com/maizzle/tailwindcss-preset-email/HEAD/.github/tailwindcss-mark.svg" alt="Tailwind CSS" width="108" height="66">
   <h1>Tailwind CSS Px To Rem Preset</h1>
 </div>
 
