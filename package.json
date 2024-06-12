@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-preset-px-to-rem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Tailwind CSS preset that automates the conversion of pixel values to rem units. Enhance your responsive design workflow with customizable rem dividers and easy integration into your Tailwind CSS configuration.",
   "main": "src/index.js",
   "publishConfig": {
