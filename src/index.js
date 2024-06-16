@@ -2,45 +2,21 @@
 module.exports = {
   theme: {
     remDivider: 16,
-    pxToRemFontSize: () => {
-      return Array.from(Array(101).keys()).reduce((acc, key) => {
-        acc[key] = key;
-
-        return acc;
-      }, {});
-    },
-    pxToRemSpacing: () => {
-      return Array.from(Array(1921).keys()).reduce((acc, key) => {
-        acc[key] = key;
-
-        return acc;
-      }, {});
-    },
     fontSize: ({ theme }) => {
-      const values = theme("pxToRemFontSize");
       const remDivider = theme("remDivider");
-
-      const utilities = Object.keys(values).reduce((acc, key) => {
-        const value = parseFloat(values[key]);
-        const remValue = `${value / remDivider}rem`;
-        acc[key] = remValue;
-        return acc;
-      }, {});
-
-      return utilities;
+      const sizes = {};
+      for (let i = 1; i <= 100; i++) {
+        sizes[`${i}`] = `${i / remDivider}rem`;
+      }
+      return sizes;
     },
     spacing: ({ theme }) => {
-      const values = theme("pxToRemSpacing");
       const remDivider = theme("remDivider");
-
-      const utilities = Object.keys(values).reduce((acc, key) => {
-        const value = parseFloat(values[key]);
-        const remValue = `${value / remDivider}rem`;
-        acc[key] = remValue;
-        return acc;
-      }, {});
-
-      return utilities;
+      const sizes = {};
+      for (let i = 1; i <= 1920; i++) {
+        sizes[`${i}`] = `${i / remDivider}rem`;
+      }
+      return sizes;
     },
   },
 };
