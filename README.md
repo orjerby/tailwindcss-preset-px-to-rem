@@ -5,7 +5,8 @@
 
 ## About
 
-A Tailwind CSS preset that automates the conversion of pixel values to rem units. Enhance your responsive design workflow with customizable rem dividers and easy integration into your Tailwind CSS configuration.
+A Tailwind CSS preset that automates the conversion of pixel values to rem units.\
+Enhance your responsive design workflow with customizable rem dividers and easy integration into your Tailwind CSS configuration.
 
 ## Installation
 
@@ -22,9 +23,8 @@ module.exports = {
 };
 ```
 
-As an example, the classes applied below become available right away.
-Those classes will calculate and use the rem for you.
-You can use up to 100px in the `font-size` property and up to 1920px in the `spacing` property.
+As an example, the classes applied below become available right away.\
+Those classes will convert from px to rem.
 
 ```html
 <div class="mt-25 p-15 max-w-640">
@@ -36,12 +36,19 @@ You can use up to 100px in the `font-size` property and up to 1920px in the `spa
 
 ## Configuration
 
-The default rem divider is 16.
-you can easily change it by using `remDivider` in `theme` like so:
+You can configure some options by using those properties in `theme` object:
+
+- remDivider (default - 20)
+- fontSizeLimit (default - 100)
+- spacingLimit (default - 1920)
+- borderRadiusLimit (default - 50)
 
 ```js
 // tailwind.config.js
 theme: {
-  remDivider: "20";
+  remDivider: 20,
+  fontSizeLimit: 50,
+  spacingLimit: 100,
+  borderRadiusLimit: 30
 }
 ```
