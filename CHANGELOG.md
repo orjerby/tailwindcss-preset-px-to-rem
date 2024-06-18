@@ -1,5 +1,11 @@
 # tailwindcss-preset-px-to-rem
 
+## 1.1.0
+
+### Minor Changes
+
+- 45de3bb: Added borderRadius support. Added customizations
+
 ## 1.0.3
 
 ### Patch Changes
