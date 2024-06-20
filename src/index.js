@@ -18,7 +18,7 @@ module.exports = {
       const remDivider = theme("remDivider");
       const spacingLimit = theme("spacingLimit");
       const sizes = {};
-      for (let i = 1; i <= spacingLimit; i++) {
+      for (let i = 0; i <= spacingLimit; i++) {
         sizes[`${i}`] = `${i / remDivider}rem`;
       }
       return sizes;
@@ -27,9 +27,11 @@ module.exports = {
       const remDivider = theme("remDivider");
       const borderRadiusLimit = theme("borderRadiusLimit");
       const sizes = {};
+      sizes["none"] = "0px";
       for (let i = 1; i <= borderRadiusLimit; i++) {
         sizes[`${i}`] = `${i / remDivider}rem`;
       }
+      sizes["full"] = "9999px";
       return sizes;
     },
   },
