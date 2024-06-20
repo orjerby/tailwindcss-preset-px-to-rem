@@ -1,5 +1,11 @@
 # tailwindcss-preset-px-to-rem
 
+## 1.1.1
+
+### Patch Changes
+
+- ecf76f0: fix
+
 ## 1.1.0
 
 ### Minor Changes
