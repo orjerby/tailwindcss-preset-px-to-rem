@@ -41,7 +41,7 @@ You can configure some options by using those properties in `theme` object:
 - remDivider (default - 20)
 - fontSizeLimit (default - 100)
 - spacingLimit (default - 1920)
-- borderRadiusLimit (default - 50)
+- borderRadiusLimit (default - 500)
 
 ```js
 // tailwind.config.js
