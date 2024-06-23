@@ -1,5 +1,11 @@
 # tailwindcss-preset-px-to-rem
 
+## 1.2.1
+
+### Patch Changes
+
+- e0a5003: readme fix
+
 ## 1.2.0
 
 ### Minor Changes
