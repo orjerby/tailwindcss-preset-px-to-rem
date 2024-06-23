@@ -1,5 +1,11 @@
 # tailwindcss-preset-px-to-rem
 
+## 1.2.0
+
+### Minor Changes
+
+- 4bb2f08: extend instead of theme
+
 ## 1.1.1
 
 ### Patch Changes
